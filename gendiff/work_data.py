@@ -1,6 +1,6 @@
 from os.path import splitext
 
-ADM_EXTENSIONS = ('json')
+ADM_EXTENSIONS = ('json', 'yaml', 'yml')
 
 
 def opening_file(path):
