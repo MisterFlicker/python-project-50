@@ -14,6 +14,13 @@ def comparison_of_files(data1, data2):
                 'operation': 'removed',
                 'old': data1[key]
                 })
+        elif isinstance(data1[key], dict) and isinstance(data2[key], dict):
+            child = comparison_of_files(data1[key], data2[key])
+            result.append({
+                'key': key,
+                'operation': 'nested',
+                'value': child
+            })
         elif data1[key] == data2[key]:
             result.append({
                 'key': key,
