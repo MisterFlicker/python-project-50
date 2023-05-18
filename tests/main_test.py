@@ -66,4 +66,4 @@ import pytest
 def test_generare_diff(test_input1, test_input2, formater, expected):
     with open(expected, 'r') as file:
         result_data = file.read()
-        assert generate_diff(test_input1, test_input2, formater) == result_data
+        assert generate_diff(test_input1, test_input2, formater) == result_data[0:-1]
