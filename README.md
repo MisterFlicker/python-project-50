@@ -3,6 +3,8 @@
 
 <a href="https://codeclimate.com/github/MisterFlicker/python-project-50/maintainability"><img src="https://api.codeclimate.com/v1/badges/e67979b46b00901c6162/maintainability" /></a>
 
+[![CI Status](https://github.com/MisterFlicker/python-project-50/workflows/additional_workflow/badge.svg)](https://github.com/MisterFlicker/python-project-50/actions/workflows/additional_workflow.yml)
+
 https://asciinema.org/a/n3vKcFIeMBUzGJyEp1B7XHfsM #STEP3
 
 https://asciinema.org/a/etduygtp5wv0k0PDINlxzj4qw #STEP5
