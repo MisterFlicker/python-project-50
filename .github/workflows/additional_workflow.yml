@@ -23,7 +23,9 @@ jobs:
           make install
       - name: Run linter and pytest
         run: |
-          make check
+          make selfcheck
+          make lint
+          make test
       - name: Test & publish code coverage
         uses: paambaati/codeclimate-action@v3.2.0
         if: github.ref_name == 'main'
