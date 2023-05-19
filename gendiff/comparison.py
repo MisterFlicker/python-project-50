@@ -1,4 +1,4 @@
-def comparison_of_files(data1, data2):
+def comparing(data1, data2):
     result = list()
     keys = sorted(set(list(data1.keys()) + list(data2.keys())))
     for key in keys:
@@ -15,7 +15,7 @@ def comparison_of_files(data1, data2):
                 'old': data1[key]
                 })
         elif isinstance(data1[key], dict) and isinstance(data2[key], dict):
-            child = comparison_of_files(data1[key], data2[key])
+            child = comparing(data1[key], data2[key])
             result.append({
                 'key': key,
                 'operation': 'nested',
