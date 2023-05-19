@@ -22,9 +22,6 @@ test: # проверка gendiff по pytest
 selfcheck:
 	poetry check
 
-check:
-	selfcheck test lint
-
 test-coverage: # проверка по покрытию теста
 	poetry run pytest --cov=gendiff --cov-report xml tests/
 
