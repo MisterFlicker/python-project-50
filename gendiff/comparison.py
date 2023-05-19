@@ -1,4 +1,4 @@
-def comparing(data1, data2):i  # noqa: C901
+def comparing(data1, data2):  # noqa: C901
     result = list()
     keys = sorted(set(list(data1.keys()) + list(data2.keys())))
     for key in keys:
