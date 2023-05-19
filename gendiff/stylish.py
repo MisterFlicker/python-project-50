@@ -26,7 +26,7 @@ def line_forming(dictionary: dict, key: Any, depth: int, sign: str) -> str:
            f'{to_str(dictionary[key], depth + DEFAULT_INDENT)}'
 
 
-def build_stylish_iter(diff: dict, depth=0) -> str:
+def build_stylish_iter(diff: dict, depth=0) -> str:  # noqa: C901
     lines = ['{']
     for dictionary in diff:
         if dictionary['operation'] == 'same':
