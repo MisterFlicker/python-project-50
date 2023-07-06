@@ -14,8 +14,8 @@
 - https://asciinema.org/a/Zp3MDI4DbRjBfFPcog2RBX6be #STEP7
 - https://asciinema.org/a/BFCSALddpYlKvkKuMTGcQ8fSS #STEP8
 
-Форма ввода для работы:
-gendiff --format x a b
-где x - формат json, plain или stylsh
+Форма ввода для работы:  
+gendiff --format x a b  
+где x - формат json, plain или stylsh  
 a и b - путь до файлов с указанием расширения (например file1.json)
 
