@@ -14,8 +14,8 @@
 - https://asciinema.org/a/Zp3MDI4DbRjBfFPcog2RBX6be #STEP7
 - https://asciinema.org/a/BFCSALddpYlKvkKuMTGcQ8fSS #STEP8
 
-Форма ввода для работы:  
+Commant to start generate difference:  
 gendiff --format x a b  
-где x - формат json, plain или stylsh  
-a и b - путь до файлов с указанием расширения (например file1.json)
+where x - format(json, plain or stylsh)  
+a and b - path to files with extension (for example tests/fixtures/file1.json)
 
