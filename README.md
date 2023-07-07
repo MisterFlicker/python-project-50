@@ -16,6 +16,6 @@
 
 Commant to start generate difference:  
 gendiff --format x a b  
-where x - format(json, plain or stylsh)  
+where x - format (json, plain or stylsh)  
 a and b - path to files with extension (for example tests/fixtures/file1.json)
 
