@@ -18,7 +18,7 @@ To package install use: make package-install
 ## How to use
 
 Commant to start generate difference:  
-gendiff --format x a b  
+poetry run gendiff --format x a b  
 where x - format (json, plain or stylsh)  
 a and b - path to files with extension
 
