@@ -3,7 +3,6 @@
 
 ## Description
 
-About  
 A difference calculator is a program that determines the difference between two data structures. Support for different input formats: yaml, json. Report generation in the formats: plain text, stylish и json.
 
 ## Installing
